@@ -35,5 +35,11 @@ namespace GithubDenemeProjesi.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        public string HelloWorld()
+        {
+            return "Hello World!";
+        }
     }
 }
